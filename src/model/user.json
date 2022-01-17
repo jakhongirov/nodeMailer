@@ -4,6 +4,6 @@
 		"user_surname": "Jakhongirov",
 		"user_name": "Diyorbek",
 		"user_job": "Full stack web developer",
-		"user_avatar": "http://localhost:8000/assets/images/profile.jpg"
+		"user_avatar": "https://nodemailer-1.herokuapp.com/assets/images/profile.jpg"
 	}
 ]
