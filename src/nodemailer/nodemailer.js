@@ -17,7 +17,7 @@ async function nodeMailer(email) {
       to: email, // list of receivers
       subject: "WEB-PROGRAMMING", // Subject line
       text: "Hello " + email, // plain text body
-      html: "<b>Do you want to lear IT you come to 'Najot ta'lim' education center</b>", // html body
+      html: "<b>Do you want to learn IT you come to 'Najot ta'lim' education center</b>", // html body
    })
 
    console.log("Message sent: %s", info.messageId);
