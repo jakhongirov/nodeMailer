@@ -15,9 +15,9 @@ async function nodeMailer(email) {
    let info = await transporter.sendMail({
       from: process.env.E_USERNAME, // sender address
       to: email, // list of receivers
-      subject: "Hello ✔️", // Subject line
-      text: "Hello world?", // plain text body
-      html: "<b>Hello world?</b>", // html body
+      subject: "WEB-PROGRAMMING", // Subject line
+      text: "Hello " + email, // plain text body
+      html: "<b>Do you want to lear IT you come to 'Najot ta'lim' education center</b>", // html body
    })
 
    console.log("Message sent: %s", info.messageId);
